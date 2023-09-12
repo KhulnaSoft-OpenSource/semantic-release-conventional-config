@@ -65,7 +65,7 @@ jobs:
           fetch-depth: 0
 
       - name: "🔧 setup node"
-        uses: actions/setup-node@v2.1.5
+        uses: actions/setup-node@v3.8.1
         with:
           node-version: 16
 
